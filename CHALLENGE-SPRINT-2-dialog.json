@@ -1,0 +1,1824 @@
+{
+  "intents": [
+    {
+      "intent": "atendimento",
+      "examples": [
+        {
+          "text": "como funciona o atendimento"
+        },
+        {
+          "text": "o atendimento é on-line ?"
+        },
+        {
+          "text": "o atendimento funciona em todo o Brasil ?"
+        },
+        {
+          "text": "quero saber mais sobre o atendimento"
+        },
+        {
+          "text": "tenho duvida sobre o atendimento"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Cancelamento",
+      "examples": [
+        {
+          "text": "Cancelar meu plano"
+        },
+        {
+          "text": "Cancelar o cadastro"
+        },
+        {
+          "text": "Cancelar o registro"
+        },
+        {
+          "text": "estou insatisfeito com o meu cadastro, quero cancelar"
+        },
+        {
+          "text": "não consigo utilizar o aplicativo, por isso quero cancelar"
+        },
+        {
+          "text": "Não estou afim de continuar meu cadastro, quero cancelar"
+        },
+        {
+          "text": "Não estou mais satisfeito com o sistema, quero cancelar"
+        },
+        {
+          "text": "Não quer continuar com o meu cadastro"
+        },
+        {
+          "text": "Não quero continuar o meu plano quero cancelar"
+        },
+        {
+          "text": "não quero ser mais cliente, quero cancelar"
+        },
+        {
+          "text": "Quer cancelar o registro"
+        },
+        {
+          "text": "Quero cancelar meu cadastro"
+        }
+      ],
+      "description": "Quando o cliente quiser cancelar o cadastro."
+    },
+    {
+      "intent": "Celular",
+      "examples": [
+        {
+          "text": "11 941109630"
+        },
+        {
+          "text": "(11) 99838-5385"
+        },
+        {
+          "text": "(12) 98755-1872"
+        },
+        {
+          "text": "(17) 99714-5457"
+        },
+        {
+          "text": "(21) 96946-2578"
+        },
+        {
+          "text": "(21) 98754-8494"
+        },
+        {
+          "text": "(54) 98501-1655"
+        },
+        {
+          "text": "(68) 98914-6592"
+        },
+        {
+          "text": "(68) 99271-4366"
+        },
+        {
+          "text": "(77) 99870-1420"
+        },
+        {
+          "text": "(83) 98342-7677"
+        },
+        {
+          "text": "(87) 98378-2331"
+        },
+        {
+          "text": "(97) 98085-9662"
+        }
+      ],
+      "description": "Registrar o celular do cliente "
+    },
+    {
+      "intent": "CEP",
+      "examples": [
+        {
+          "text": "02652-200"
+        },
+        {
+          "text": "13480-851"
+        },
+        {
+          "text": "13609-300"
+        },
+        {
+          "text": "15990-435"
+        },
+        {
+          "text": "24315-669"
+        },
+        {
+          "text": "24934-623"
+        },
+        {
+          "text": "26380-060"
+        },
+        {
+          "text": "59056-171"
+        },
+        {
+          "text": "59090-267"
+        },
+        {
+          "text": "59142-440"
+        },
+        {
+          "text": "70040-240"
+        },
+        {
+          "text": "73040-137"
+        }
+      ],
+      "description": "Registra O CEP do cliente."
+    },
+    {
+      "intent": "Cidade",
+      "examples": [
+        {
+          "text": "Belo Horizonte"
+        },
+        {
+          "text": "Campinas"
+        },
+        {
+          "text": "Campo Grande"
+        },
+        {
+          "text": "Curitiba"
+        },
+        {
+          "text": "Duque de Caxias"
+        },
+        {
+          "text": "Fortaleza"
+        },
+        {
+          "text": "Franco da Rocha"
+        },
+        {
+          "text": "Goiânia"
+        },
+        {
+          "text": "Guarulhos"
+        },
+        {
+          "text": "Maceió"
+        },
+        {
+          "text": "Manaus"
+        },
+        {
+          "text": "Natal"
+        },
+        {
+          "text": "Osasco"
+        },
+        {
+          "text": "Porto Alegre"
+        },
+        {
+          "text": "Recife"
+        },
+        {
+          "text": "Salvador"
+        },
+        {
+          "text": "Santo André"
+        },
+        {
+          "text": "São Bernardo do Campo"
+        },
+        {
+          "text": "São Caetano"
+        },
+        {
+          "text": "São Gonçalo"
+        },
+        {
+          "text": "São Luís"
+        }
+      ],
+      "description": "Cidade do Cliente"
+    },
+    {
+      "intent": "CPF",
+      "examples": [
+        {
+          "text": "293.278.135-96"
+        },
+        {
+          "text": "334.516.045-58"
+        },
+        {
+          "text": "343.157.549-86"
+        },
+        {
+          "text": "352.857.709-63"
+        },
+        {
+          "text": "432.620.783-36"
+        },
+        {
+          "text": "448.838.333-56"
+        },
+        {
+          "text": "456.167.412-80"
+        },
+        {
+          "text": "45678790890"
+        },
+        {
+          "text": "45789890890"
+        },
+        {
+          "text": "45798990890"
+        },
+        {
+          "text": "45889890890"
+        },
+        {
+          "text": "755.057.650-50"
+        },
+        {
+          "text": "781.486.658-85"
+        },
+        {
+          "text": "782.753.268-34"
+        },
+        {
+          "text": "794.129.877-57"
+        },
+        {
+          "text": "947.121.346-07"
+        }
+      ],
+      "description": "Cadastrar o CPF"
+    },
+    {
+      "intent": "Data_de_Nascimento",
+      "examples": [
+        {
+          "text": "01/11/2000"
+        },
+        {
+          "text": "03/07/2003"
+        },
+        {
+          "text": "04/09/2002"
+        },
+        {
+          "text": "05/06/2001"
+        },
+        {
+          "text": "10/09/2010"
+        },
+        {
+          "text": "11/07/1992"
+        },
+        {
+          "text": "12/06/2003"
+        },
+        {
+          "text": "12062003"
+        },
+        {
+          "text": "13/06/2004"
+        },
+        {
+          "text": "15/08/2007"
+        },
+        {
+          "text": "19/08/2006"
+        },
+        {
+          "text": "20/06/2004"
+        },
+        {
+          "text": "27/06/2009"
+        }
+      ],
+      "description": "Cadastrar a data de nascimento do cliente."
+    },
+    {
+      "intent": "duvida_de_cadastro",
+      "examples": [
+        {
+          "text": "como funciona o cadastro ?"
+        },
+        {
+          "text": "como que eu me cadastro ?"
+        },
+        {
+          "text": "o cadastro é on-line ?"
+        },
+        {
+          "text": "o cadastro é rápido ?"
+        },
+        {
+          "text": "o cadastro é seguro ?"
+        },
+        {
+          "text": "queria saber mais sobre o cadastro"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Dúvidas",
+      "examples": [
+        {
+          "text": "DUVIDA"
+        },
+        {
+          "text": "DÚVIDA"
+        },
+        {
+          "text": "estou com confuso com o produto"
+        },
+        {
+          "text": "estou com dificuldade de entender o produto"
+        },
+        {
+          "text": "estou com duvida"
+        },
+        {
+          "text": "estou com muita duvida"
+        },
+        {
+          "text": "estou com uma duvida"
+        },
+        {
+          "text": "estou encucado"
+        },
+        {
+          "text": "não estou confiante"
+        },
+        {
+          "text": "queria saber mais"
+        },
+        {
+          "text": "quero muito confuso"
+        },
+        {
+          "text": "quero saber mais"
+        },
+        {
+          "text": "quero saber se vale a pena"
+        }
+      ],
+      "description": "Ajudar os clientes na suas escolhas."
+    },
+    {
+      "intent": "email",
+      "examples": [
+        {
+          "text": "annita5666@uorak.com"
+        },
+        {
+          "text": "fabiano1541@terra.com.br"
+        },
+        {
+          "text": "ftargl@gmail.com"
+        },
+        {
+          "text": "futuramos1141@hotmail.com"
+        },
+        {
+          "text": "gomes12tadeu12@gmail.com"
+        },
+        {
+          "text": "jolone9259@asuflex.com"
+        },
+        {
+          "text": "lftragl@gmail.com"
+        },
+        {
+          "text": "lucasGarcia@gmail.com"
+        },
+        {
+          "text": "perolas1234@hotmail.com"
+        },
+        {
+          "text": "prudenciano745@uorak.com"
+        },
+        {
+          "text": "reginaldo1031@uorak.com"
+        },
+        {
+          "text": "tadeu1234@gmail.com"
+        }
+      ],
+      "description": "email do cliente"
+    },
+    {
+      "intent": "Estado",
+      "examples": [
+        {
+          "text": "Alagoas"
+        },
+        {
+          "text": "Amazonas"
+        },
+        {
+          "text": "Bahia"
+        },
+        {
+          "text": "Ceará"
+        },
+        {
+          "text": "Mato Grosso do Sul"
+        },
+        {
+          "text": "Minas Gerais"
+        },
+        {
+          "text": "Pernambuco"
+        },
+        {
+          "text": "Rio de Janeiro"
+        },
+        {
+          "text": "Rio Grande do Sul"
+        },
+        {
+          "text": "Roraima"
+        },
+        {
+          "text": "São Paulo"
+        },
+        {
+          "text": "Sergipe"
+        }
+      ],
+      "description": "Registrar o Estado do cliente"
+    },
+    {
+      "intent": "Estado_Civil",
+      "examples": [
+        {
+          "text": "Casada"
+        },
+        {
+          "text": "Casado"
+        },
+        {
+          "text": "Divorciada"
+        },
+        {
+          "text": "Divorciado"
+        },
+        {
+          "text": "Namorando"
+        },
+        {
+          "text": "Não quero informar"
+        },
+        {
+          "text": "Separada"
+        },
+        {
+          "text": "Separado"
+        },
+        {
+          "text": "Solteira"
+        },
+        {
+          "text": "Solteiro"
+        },
+        {
+          "text": "Viúva"
+        },
+        {
+          "text": "Viúvo"
+        }
+      ],
+      "description": "Cadastrar o Estado do Social "
+    },
+    {
+      "intent": "Nome",
+      "examples": [
+        {
+          "text": "Dayverson Neves Medel Esteves"
+        },
+        {
+          "text": "Eliezer Cunha Grilo Terra"
+        },
+        {
+          "text": "Estefani Nazare Ascar Kassab"
+        },
+        {
+          "text": "Jacqueline Lopez Pacheco da Conceição"
+        },
+        {
+          "text": "Jonas da Souza Ribeiro Giron"
+        },
+        {
+          "text": "José André Tadeu "
+        },
+        {
+          "text": "Josildo da Sousa Temperini Rangel"
+        },
+        {
+          "text": "Kamilla Cocelo Carvalho Peixoto"
+        },
+        {
+          "text": "Lorenzo Barellos Henriquez Uchôa"
+        },
+        {
+          "text": "Luiz Felipe dos Santos Tragl"
+        },
+        {
+          "text": "Mariano Nigro Camelo Neto"
+        },
+        {
+          "text": "Mariano Trindade Almeida Arlia"
+        },
+        {
+          "text": "Yohan Lopes"
+        }
+      ],
+      "description": "Cadastras o nome dos usuários "
+    },
+    {
+      "intent": "planos",
+      "examples": [
+        {
+          "text": "duvida planos"
+        },
+        {
+          "text": "estou com duvida dobre os planos"
+        },
+        {
+          "text": "planos"
+        },
+        {
+          "text": "quero saber mais sobre os planos"
+        },
+        {
+          "text": "quero saber sobre os planos"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Registrar",
+      "examples": [
+        {
+          "text": "cadastrar"
+        },
+        {
+          "text": "Desejo me cadastrar"
+        },
+        {
+          "text": "Estou com vontade de criar um cadastro"
+        },
+        {
+          "text": "Estou querendo criar uma conta"
+        },
+        {
+          "text": "Quero criar um cadastro"
+        },
+        {
+          "text": "Quero criar um login"
+        },
+        {
+          "text": "Quero criar um registro"
+        },
+        {
+          "text": "quero fazer meu cadsatro "
+        },
+        {
+          "text": "Quero fazer um cadastro"
+        },
+        {
+          "text": "Quero fazer um conta"
+        },
+        {
+          "text": "Quero iniciar um cadastro"
+        },
+        {
+          "text": "Quero me cadastrar"
+        },
+        {
+          "text": "Quero me registrar"
+        }
+      ],
+      "description": "Cadastrar o cliente "
+    },
+    {
+      "intent": "Retornar_menu_duvidas",
+      "examples": [
+        {
+          "text": "1"
+        },
+        {
+          "text": "2"
+        },
+        {
+          "text": "3"
+        },
+        {
+          "text": "back"
+        },
+        {
+          "text": "quero retornar"
+        },
+        {
+          "text": "quero voltar"
+        },
+        {
+          "text": "regredir"
+        },
+        {
+          "text": "retrair"
+        },
+        {
+          "text": "return"
+        },
+        {
+          "text": "voltar"
+        }
+      ],
+      "description": "retornar para o menu de seleção"
+    },
+    {
+      "intent": "retornar_menu_principal",
+      "examples": [
+        {
+          "text": "começo"
+        },
+        {
+          "text": "inicio"
+        },
+        {
+          "text": "menu"
+        },
+        {
+          "text": "menu principal"
+        },
+        {
+          "text": "principal"
+        },
+        {
+          "text": "quero voltar para o começo"
+        },
+        {
+          "text": "quero voltar para o inicio"
+        },
+        {
+          "text": "quero voltar para o menu principal"
+        }
+      ],
+      "description": "voltar para o começo"
+    },
+    {
+      "intent": "RG",
+      "examples": [
+        {
+          "text": "11.856.503-5"
+        },
+        {
+          "text": "16.862.486-4"
+        },
+        {
+          "text": "24.964.317-0"
+        },
+        {
+          "text": "25.257.637-8"
+        },
+        {
+          "text": "26.170.476-0"
+        },
+        {
+          "text": "33.810.928-6"
+        },
+        {
+          "text": "33.867.747-9"
+        },
+        {
+          "text": "36.778.178-8"
+        },
+        {
+          "text": "38.964.013-7"
+        },
+        {
+          "text": "44.719.635-2"
+        },
+        {
+          "text": "45.574.621-4"
+        },
+        {
+          "text": "47.856.294-9"
+        }
+      ],
+      "description": "RG dos Clientes"
+    },
+    {
+      "intent": "sexo",
+      "examples": [
+        {
+          "text": "Feminino"
+        },
+        {
+          "text": "Masculino"
+        },
+        {
+          "text": "Não quero me indentificar"
+        }
+      ],
+      "description": "sexo do cliente"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "Ajuda",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "cancelamento",
+          "synonyms": [
+            "abolir",
+            "cancelar ",
+            "cortar",
+            "encerrar",
+            "tirar"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "dúvidas",
+          "synonyms": [
+            "ambiguidade",
+            "confuso",
+            "desconfiança",
+            "hesitação",
+            " suposição"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Alternativas",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "1",
+          "synonyms": [
+            "um "
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "2",
+          "synonyms": [
+            "dois"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "3",
+          "synonyms": [
+            "três"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Planos",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Plano High",
+          "synonyms": [
+            "High"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Plano Low",
+          "synonyms": [
+            "low"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Plano Médio",
+          "synonyms": [
+            "Médio "
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Registro",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "celular",
+          "patterns": [
+            "(\\d2}\\d{5}-\\d{4})"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "cep",
+          "patterns": [
+            "(\\d{5}-\\d{3})"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "cpf",
+          "patterns": [
+            "(\\d{3} . \\d{3} . \\d{3} - \\d{2})",
+            "(\\d{3})(\\d{3})(\\d{3})(\\d{2})"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "data_de_nascimento",
+          "patterns": [
+            "(\\d{2}/\\d{2}\\{4})"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "email",
+          "patterns": [
+            "\\b[A-Za-z0-9._%+-]+@([A-Za-z0-9-]+\\.)+[A-Za-z]{2,}\\b",
+            "([a-zA-Z0-9+._-]+@[a-zA-Z0-9._-]+\\.[a-zA-Z0-9_-]+)"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "estado",
+          "synonyms": [
+            "Minas Gerais",
+            "Paraná",
+            "Rio de Janeiro",
+            "Rio Grande do Sul",
+            "Santa Catarina",
+            "São Paulo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "estado_civil",
+          "synonyms": [
+            "Casada",
+            "Casado",
+            "Solteira",
+            "Solteiro",
+            "Viúva",
+            "Viúvo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "nome",
+          "synonyms": [
+            "antenome",
+            "apelido",
+            "nomeado"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "registrar",
+          "synonyms": [
+            "cadastrar ",
+            "cadastro ",
+            "começar",
+            "iniciar "
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sexo",
+          "synonyms": [
+            "f",
+            "feminino ",
+            "m ",
+            "masculino ",
+            "não quero "
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá Sou o Bot da Porto, oque o senhor(a) gostaria de fazer ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#retornar_menu_principal",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá Sou o Bot da Porto, oque o senhor(a) gostaria de fazer ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_3_1684072254773",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1684370693383",
+      "context": {
+        "Registro_estado_civil": "@Registro:estado_civil"
+      },
+      "conditions": "@Registro:estado_civil",
+      "event_name": "input",
+      "dialog_node": "handler_1_1684370693384"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1684371082925",
+      "context": {
+        "CPF": "#CPF"
+      },
+      "conditions": "#CPF",
+      "event_name": "input",
+      "dialog_node": "handler_1_1684371082926"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1684410828255",
+      "context": {
+        "sexo": "#sexo"
+      },
+      "conditions": "#sexo",
+      "event_name": "input",
+      "dialog_node": "handler_1_1684410828266"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Coloque seu estado civil( ex: Solteiro)"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_4_1684370693383",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1684370693384",
+      "previous_sibling": "handler_1_1684370693384"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1684410774123",
+      "context": {
+        "Cidade": "#Cidade"
+      },
+      "conditions": "#Cidade",
+      "event_name": "input",
+      "dialog_node": "handler_2_1684410774124"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1684431218348",
+      "context": {
+        "Registro_email": "@Registro:email"
+      },
+      "conditions": "@Registro:email",
+      "event_name": "input",
+      "dialog_node": "handler_2_1684431218359"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Coloque seu número de celular conforme o exemplo ( ex: (11) 94111-9850)"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_6_1684368812000",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1684368812001",
+      "previous_sibling": "handler_4_1684368812001"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Coloque seu email de contato"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_7_1684431218348",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1684431218359",
+      "previous_sibling": "handler_2_1684431218359"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1684368812000",
+      "context": {
+        "Celular": "#Celular"
+      },
+      "conditions": "#Celular",
+      "event_name": "input",
+      "dialog_node": "handler_4_1684368812001"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Coloque seu nome."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_8_1684072785814",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1684072785814",
+      "previous_sibling": "handler_9_1684072785814"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Coloque sua data de nascimento (ex:20/07/2000)"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_3_1684354275128",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1684354275136",
+      "previous_sibling": "handler_6_1684354275136"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1684354546770",
+      "context": {
+        "Registro_estado": "@Registro:estado"
+      },
+      "conditions": "@Registro:estado",
+      "event_name": "input",
+      "dialog_node": "handler_5_1684354546777"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Coloque sua cidade (ex: São Carlos )"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_2_1684410774123",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1684410774124",
+      "previous_sibling": "handler_2_1684410774124"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1684354275128",
+      "context": {
+        "Registro_data_de_nascimente": "#Data_de_Nascimento"
+      },
+      "conditions": "#Data_de_Nascimento",
+      "event_name": "input",
+      "dialog_node": "handler_6_1684354275136"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Coloque seu CEP conforme o exemplo"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_2_1684408908214",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1684408908226",
+      "previous_sibling": "handler_8_1684408908226"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Coloque como esse exemplo (ex: 456.898.953-12)"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_8_1684371082925",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1684371082926",
+      "previous_sibling": "handler_1_1684371082926"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Coloque seu estado que o senhor reside (ex: São Paulo)"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_4_1684354546770",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1684354546777",
+      "previous_sibling": "handler_5_1684354546777"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1684408908214",
+      "context": {
+        "CEP": "#CEP"
+      },
+      "conditions": "#CEP",
+      "event_name": "input",
+      "dialog_node": "handler_8_1684408908226"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1684072785814",
+      "context": {
+        "nome": "#Nome"
+      },
+      "conditions": "#Nome",
+      "event_name": "input",
+      "dialog_node": "handler_9_1684072785814"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Digite seu gênero ( ex: masculino)"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_7_1684410828255",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1684410828266",
+      "previous_sibling": "handler_1_1684410828266"
+    },
+    {
+      "type": "frame",
+      "title": "Cadastrar o Cliente",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual é o seu nome ? :"
+              },
+              {
+                "text": "Para registar coloque seu nome completo :"
+              },
+              {
+                "text": "Para cadastrar coloque seu nome completo :"
+              },
+              {
+                "text": "Para iniciar o cadastro coloque seu nome :"
+              },
+              {
+                "text": "Para começar o cadastro coloque seu nome :"
+              },
+              {
+                "text": "Para começarmos a registrar coloque seu nome :"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#Registrar",
+      "dialog_node": "node_1_1684000007321",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Cancelamento de registro ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Cancelamento feito !!!!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@Ajuda:cancelamento",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1684013336652",
+      "previous_sibling": "node_7_1684376411326"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nosso atendimento funciona em todo o Brasil com 100% de funcionamento com o intuito de contribuir com a sua segurança e com o seu conforto, sua Bike para a Porto é o bem mais valioso  e por isso fizemos esse sistema para ajudar nossos cliente nossos cliente na segurança da sua bike. Não perca tempo e começa a pedalar junto com a Porto."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#atendimento",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1684376669517",
+      "previous_sibling": "node_4_1684372041176"
+    },
+    {
+      "type": "frame",
+      "title": "Dialogo de Obrigados",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Obrigado por criar um login, com nosso bot ."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@Planos",
+      "dialog_node": "node_3_1684072254773",
+      "previous_sibling": "node_1_1684013336652"
+    },
+    {
+      "type": "frame",
+      "title": "CPF do Cliente",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Insira sua data de nascimento :"
+              },
+              {
+                "text": "Nos informe sua data de nascimento :"
+              },
+              {
+                "text": "Insira a data do seu aniversário :"
+              },
+              {
+                "text": "Nos informe sua data de aniversário :"
+              },
+              {
+                "text": "Digite sua data de nascimento :"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_9_1684000129131",
+      "conditions": "#CPF || @Registro:cpf",
+      "dialog_node": "node_4_1684000158542",
+      "previous_sibling": "slot_8_1684072785814"
+    },
+    {
+      "type": "frame",
+      "title": "Estado do cliente ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Digite seu CEP:"
+              },
+              {
+                "text": "Digite o CEP da sua Residência:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1684000297786",
+      "conditions": "@Registro:estado",
+      "dialog_node": "node_4_1684000315205",
+      "previous_sibling": "slot_6_1684368812000"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você tem duvida sobre qual assunto?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#Dúvidas",
+      "dialog_node": "node_4_1684372041176",
+      "previous_sibling": "node_1_1684000007321"
+    },
+    {
+      "type": "frame",
+      "title": "Genero",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Coloque o seu email :"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1684408223252",
+      "conditions": "#sexo",
+      "dialog_node": "node_4_1684410491447",
+      "previous_sibling": "slot_2_1684410774123"
+    },
+    {
+      "type": "standard",
+      "parent": "node_7_1684431088529",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1684072254773"
+      },
+      "conditions": "@Planos",
+      "dialog_node": "node_4_1684431288836"
+    },
+    {
+      "type": "frame",
+      "title": "Estado Civil do cliente",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Digite seu Celular :"
+              },
+              {
+                "text": "Coloque seu número de contato :"
+              },
+              {
+                "text": "Diga-nos seu celular :"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_6_1684000221311",
+      "conditions": "@Registro:estado_civil",
+      "dialog_node": "node_5_1684000273078",
+      "previous_sibling": "slot_3_1684354275128"
+    },
+    {
+      "type": "frame",
+      "title": "Celular do cliente ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Em que estado você mora :"
+              },
+              {
+                "text": "Qual é o estado onde você mora:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_5_1684000273078",
+      "conditions": "#Celular",
+      "dialog_node": "node_5_1684000297786",
+      "previous_sibling": "slot_4_1684370693383"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sobre nossos Planos :"
+              },
+              {
+                "text": "Plano Low : Esse plano é para aqueles que não querem gastar muito em um seguro de BIKE, as BIKE que  se encaixam melhor nesse plano são de valor inicial de R$800,00 até R$4.999,00 . "
+              },
+              {
+                "text": "Plano Médio : Esse plano é para aqueles que já são um pouquinho exigente com as BIKE, que utiliza a BIKE com uma meio de hobby nos seu tempos livres . As BIKE que se encaixam melhor nesse plano são de valor inicial é de R$ 5.000,00 até R$49.999,00 ."
+              },
+              {
+                "text": "Plano High : Esse plano é para clientes que amam sua BIKE , pois o valor que essas BIKE se encontrar são realmente para aqueles que gostão, pois o valor inicial é de R$50.000,000 e não tem limite de preço."
+              },
+              {
+                "text": "Todos os planos vem com guincho, revisão e entre outras regalias , a única coisa que muda é que cada plano tem um valor de seguro, como se sua BIKE de R$5.000,00 estiver no plano LOW o valor da BIKE no seguro var se equivalente de um BIKE LOW , mas seu seu BIKE estiver no PLANO HIGH e sua BIKE custar R$3.000,00 o valor de seguro var dar o valor cheio da BIKE. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#planos",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1684411175551",
+      "previous_sibling": "node_1_1684376669517"
+    },
+    {
+      "type": "frame",
+      "title": "Data de nascimento do cliente",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Digite seu estado civil :"
+              },
+              {
+                "text": "Diga-nos seu estado civil:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1684000158542",
+      "conditions": "#Data_de_Nascimento",
+      "dialog_node": "node_6_1684000221311",
+      "previous_sibling": "slot_8_1684371082925"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O cadastro do cliente é feito de forma rápida e pratica para os clientes Porto, ao invés de ligar para a Porto na central de atendimento ,nosso cadastro entra de forma útil para agilizar o processo de cadastramento com menos burocracia. O seu cadastro já fica de forma instantânea  ativa  e você pode fazer esse cadastro 100% on-line, no conforto da sua casa, não perca tempo e começa agora seu cadastro"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#duvida_de_cadastro",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1684376411326",
+      "previous_sibling": "node_5_1684411175551"
+    },
+    {
+      "type": "frame",
+      "title": "Cidade",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual é o seu Gênero :"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1684369622059",
+      "conditions": "#Cidade",
+      "dialog_node": "node_7_1684408223252",
+      "previous_sibling": "slot_2_1684408908214"
+    },
+    {
+      "type": "frame",
+      "title": "email",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual plano você quer :"
+              },
+              {
+                "text": "Plano Low"
+              },
+              {
+                "text": "Plano Médio"
+              },
+              {
+                "text": "Plano High"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_4_1684410491447",
+      "conditions": "#email || @Registro:email",
+      "dialog_node": "node_7_1684431088529"
+    },
+    {
+      "type": "frame",
+      "title": "Nome do Cliente ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Insira seu CPF :"
+              },
+              {
+                "text": "Escreva seu CPF :"
+              },
+              {
+                "text": "Infernos o seu CPF :"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1684000007321",
+      "conditions": "#Nome",
+      "dialog_node": "node_9_1684000129131"
+    },
+    {
+      "type": "frame",
+      "title": "CEP ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual a cidade que você mora :"
+              },
+              {
+                "text": "Qual cidade do Brasil você mora:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1684000315205",
+      "conditions": "#CEP",
+      "dialog_node": "node_9_1684369622059"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1684369622059",
+      "variable": "$CEP",
+      "dialog_node": "slot_2_1684408908214"
+    },
+    {
+      "type": "slot",
+      "parent": "node_7_1684408223252",
+      "variable": "$Cidade",
+      "dialog_node": "slot_2_1684410774123"
+    },
+    {
+      "type": "slot",
+      "parent": "node_6_1684000221311",
+      "variable": "$Registro_data_de_nascimente",
+      "dialog_node": "slot_3_1684354275128"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1684000315205",
+      "variable": "$Registro_estado",
+      "dialog_node": "slot_4_1684354546770",
+      "previous_sibling": "node_9_1684369622059"
+    },
+    {
+      "type": "slot",
+      "parent": "node_5_1684000273078",
+      "variable": "$Registro_estado_civil",
+      "dialog_node": "slot_4_1684370693383"
+    },
+    {
+      "type": "slot",
+      "parent": "node_5_1684000297786",
+      "variable": "$Celular",
+      "dialog_node": "slot_6_1684368812000"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1684410491447",
+      "variable": "$sexo",
+      "dialog_node": "slot_7_1684410828255",
+      "previous_sibling": "node_7_1684431088529"
+    },
+    {
+      "type": "slot",
+      "parent": "node_7_1684431088529",
+      "variable": "$Registro_email",
+      "dialog_node": "slot_7_1684431218348",
+      "previous_sibling": "node_4_1684431288836"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1684000129131",
+      "variable": "$nome",
+      "dialog_node": "slot_8_1684072785814"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1684000158542",
+      "variable": "$CPF",
+      "dialog_node": "slot_8_1684371082925"
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "45789890890"
+    },
+    {
+      "text": "d2"
+    },
+    {
+      "text": "low"
+    },
+    {
+      "text": "voltar para o menu inicial"
+    },
+    {
+      "text": "yu"
+    }
+  ],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores",
+      "use_connect_to_support_prompt": "Connect to support",
+      "single_answer_clarification_prompt": "Something else"
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "language": "pt-br",
+  "description": "",
+  "name": "CHALLENGE SPRINT 2-dialog"
+}
